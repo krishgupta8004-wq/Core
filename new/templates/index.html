@@ -1,0 +1,154 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Django App</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #092e20;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #145c43;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .welcome h2 {
+            color: #092e20;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #145c43;
+        }
+
+        button {
+            background-color: #145c43;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #092e20;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #092e20;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My First Django Website</h1>
+        <p>Learning Django One Step at a Time</p>
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="about-page/">About</a>
+        <a href="learning-page/">Learning</a>
+        <a href="contact-page/">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="welcome">
+            <h2>Welcome to My Website!</h2>
+            <p>
+                Hello! I am learning Django and this is my first web application.
+                I am exploring how HTML, CSS and Python work together.
+            </p>
+
+            <button onclick="alert('Welcome to my Django website!')">
+                Click Me
+            </button>
+        </section>
+
+        <section class="card" id="about">
+            <h3>About Me</h3>
+            <p>
+                I am a beginner web developer learning Python and Django.
+                My goal is to understand how websites work.
+            </p>
+        </section>
+
+        <section class="card" id="learning">
+            <h3>What I Am Learning</h3>
+            <ul>
+                <li>HTML - Website Structure</li>
+                <li>CSS - Website Styling</li>
+                <li>Python - Programming Logic</li>
+                <li>Django - Web Development Framework</li>
+            </ul>
+        </section>
+
+        <section class="card" id="contact">
+            <h3>Contact Me</h3>
+            <p>Email: myemail@example.com</p>
+            <p>Thank you for visiting my website!</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>My First Django Project | Made with HTML and CSS</p>
+    </footer>
+
+</body>
+</html>
+```
